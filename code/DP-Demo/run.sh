@@ -1,0 +1,1 @@
+python main.py --drug1 "PANOBINOSTAT" --drug2 "SORAFENIB"
