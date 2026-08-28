@@ -13,9 +13,9 @@ The current repository contains the source code for identifying ferroptosis-rela
 
 # Installation
 
-The code has been tested with Python 3.9.7 and R 4.4.1 on Ubuntu 22.04 and includes libraries such as torch, torch_geometric, numpy, networkx, scikit-learn, among others.
+The code has been tested with Python 3.9.7 and R 4.4.2 on Ubuntu 22.04 and includes libraries such as torch, torch_geometric, numpy, networkx, scikit-learn, among others.
 
-    conda create -n FeNetDP python=3.9.7 r-base=4.4.1 -y
+    conda create -n FeNetDP python=3.9.7 r-base=4.4.2 -y
     conda activate FeNetDP
     pip install -r requirements.txt 
 
@@ -65,8 +65,8 @@ A network-based approach was used to quantify the proximity between drug targets
 
 A network-based approach was used to quantify the proximity between drug targets and disease-associated genes within the protein–protein interaction (PPI) network.
 
-    cd AI-drug-pair
-    python workfolw.py
+    cd DP-Demo
+    bash run.sh
 
 Please note that the code is also compatible with the CUDA version. 
 
